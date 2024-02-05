@@ -7,7 +7,7 @@ Returns the current_state of the proposal using proposal.current_state. This is 
 I used that parameter to understand whether my proposal was confirmed or not with the least gass fee possible...
 
 
-uint256 proposalId = 123; // Replace with the actual proposal ID
+uint256 proposalId = 123; // Do with the actual proposal ID it is just example
 bool isProposalAccepted = getProposalStatus(proposalId);
 
 if (isProposalAccepted) {
