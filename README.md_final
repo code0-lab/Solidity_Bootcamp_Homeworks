@@ -1,0 +1,9 @@
+For last homework:
+
+Accesses a storage structure named proposal_history. This structure is likely used to store information about previous proposals.
+Retrieves the information of the proposal specified by the proposalId and assigns it to a variable named proposal. This variable is of type Proposal, which presumably contains information about the historical state of the proposal.
+Returns the current_state of the proposal using proposal.current_state. This is a boolean value representing the current status of the proposal.
+
+This is why i used that parameter  for understanding is my proposal confirmed or not with leeest gass fee posible...
+
+
