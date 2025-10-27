@@ -1,13 +1,22 @@
-For last homework:
+My Solidity Bootcamp Homeworks
 
-Accesses a storage structure named proposal_history. This structure is likely used to store information about previous proposals.
-Retrieves the information specified by the proposal and assigns it to a variable named proposal. This variable is of type Proposal, which presumably contains information about the historical state of the proposal.
-Returns the current_state of the proposal using proposal.current_state. This is a boolean value representing the current status of the proposal.
+For the last homework:
 
-I used that parameter to understand whether my proposal was confirmed or not with the least gass fee possible...
+This function (getProposalStatus) was created to efficiently check the status of a proposal:
 
+It accesses a storage structure named proposal_history.
 
-uint256 proposalId = 123; // Do with the actual proposal ID it is just example
+It retrieves the proposal information specified by the proposal ID and assigns it to a local variable named proposal (which is of type Proposal).
+
+It returns the current_state of that proposal (a boolean value).
+
+I used this function to understand whether my proposal was confirmed or not with the least gas fee possible.
+
+Usage Example:
+
+// Example proposal ID. Use the actual ID.
+uint256 proposalId = 123; 
+
 bool isProposalAccepted = getProposalStatus(proposalId);
 
 if (isProposalAccepted) {
@@ -18,6 +27,4 @@ if (isProposalAccepted) {
     // Do something else...
 }
 
-
-Ahmet Demircan,
-
+Ahmet Demircan
